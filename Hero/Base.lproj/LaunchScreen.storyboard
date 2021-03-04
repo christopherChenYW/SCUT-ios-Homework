@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kkk.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jNk-fv-bPF">
+                                <rect key="frame" x="0.0" y="202" width="414" height="492"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="viB-jF-wkA">
+                                <rect key="frame" x="83" y="156" width="248" height="38"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="欢迎来到          王者荣耀">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="23" name="STKaiti"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jNk-fv-bPF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3Yi-zq-6Dg"/>
+                            <constraint firstItem="jNk-fv-bPF" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Bs8-3Z-HxG"/>
+                            <constraint firstItem="jNk-fv-bPF" firstAttribute="top" secondItem="viB-jF-wkA" secondAttribute="bottom" constant="8" id="OBk-fC-777"/>
+                            <constraint firstItem="jNk-fv-bPF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OdT-t5-j6e"/>
+                            <constraint firstItem="viB-jF-wkA" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="V1X-bP-cRj"/>
+                            <constraint firstItem="jNk-fv-bPF" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="imC-fh-b3K"/>
+                            <constraint firstItem="viB-jF-wkA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="112" id="nTd-mW-dwS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="kkk.png" width="491.51998901367188" height="491.51998901367188"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
